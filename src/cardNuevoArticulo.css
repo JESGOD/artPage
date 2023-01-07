@@ -6,6 +6,7 @@
   text-align: center;
   transition: 1s;
   z-index: 10;
+ 
 }
 
 .card:hover .contentBx {
@@ -25,7 +26,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
@@ -39,14 +39,9 @@
   transition-delay: 0.5s;
 }
 
-.card:hover .contentBx .color {
-  opacity: 1;
-  visibility: visible;
-  transition-delay: 0.6s;
-}
 
-.card .contentBx .size h3,
-.card .contentBx .color h3 {
+
+.card .contentBx .size h3 {
   color: #479b5a;
   font-weight: 500;
   font-size: 14px;
