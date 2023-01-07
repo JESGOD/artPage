@@ -35,13 +35,13 @@ export default function ArticulosNuevos() {
         className="mySwiper"
       >
         <SwiperSlide className="card" >
-          <CardNuevoArticulo/>
+          <CardNuevoArticulo img_src={"//cdn.shopify.com/s/files/1/0611/4865/9963/files/categories-02.jpg?v=1637640640"} nombre_articulo={"HUMAN"}/>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/categories-03.jpg?v=1637640642" />
+        <SwiperSlide className="card">
+          <CardNuevoArticulo img_src={"//cdn.shopify.com/s/files/1/0611/4865/9963/files/categories-03.jpg?v=1637640642"} nombre_articulo={"LAMP"}/>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/categories-01.jpg?v=1637640640" />
+        <SwiperSlide className="card">
+          <CardNuevoArticulo img_src={"//cdn.shopify.com/s/files/1/0611/4865/9963/files/categories-01.jpg?v=1637640640"} nombre_articulo={"SCULTURE"}/>
         </SwiperSlide>
       </Swiper>
     </div>

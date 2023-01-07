@@ -1,23 +1,19 @@
 import "./cardNuevoArticulo.css"
-export function CardNuevoArticulo() {
+
+export function CardNuevoArticulo({img_src,nombre_articulo}) {
   return (
     <>
-      <img src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/categories-02.jpg?v=1637640640" />
+      <img src={img_src} />
       <div class="contentBx">
-        <h2>Nike Shoes</h2>
+        <h2>{nombre_articulo}</h2>
         <div class="size">
-          <h3>Size :</h3>
-          <span>7</span>
-          <span>8</span>
-          <span>9</span>
-          <span>10</span>
+          <h3>Cant :</h3>
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
         </div>
-        <div class="color">
-          <h3>Color :</h3>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+        
         <a href="#">Buy Now</a>
       </div>
     </>
