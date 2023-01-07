@@ -1,3 +1,4 @@
+import "./index.css"
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -25,6 +26,12 @@ export default function SwiperHeader() {
         modules={[Autoplay,Pagination]}
         className="mySwiper "
       >
+        <div className="texto-header">
+          <h1 className="titulo">Painting</h1>
+          <p className="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo aperiam deserunt</p>
+          <button className="btn_verMas">COMPRAR</button>
+          
+        </div>
         <SwiperSlide><img src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider01-mobile.jpg?v=1637744988" alt="" /> </SwiperSlide>
         <SwiperSlide><img src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider02-mobile.jpg?v=1637648973" alt="" /></SwiperSlide>
         <SwiperSlide><img src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider03-mobile.jpg?v=1637648865" alt="" /></SwiperSlide>

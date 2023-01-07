@@ -1,26 +1,36 @@
 :root{
+  /* global */
+  --font-titulo-subtitulo:'Gloria Hallelujah', cursive;
+  --font-paragraph: 'Yeon Sung';
+  --title-font-color: white;
+  --title-color-shadow: #ffe431;
   /* for pc */
  --title-font_size_pc: x-large;
  --subtitle-font_size_pc: x-large;
  --paragraph-font_size_pc: medium;
- --font-titulo-subtitulo:'Gloria Hallelujah', cursive;
+ 
 
 
  /* for mobile */
- --title-font_size: x-large;
+ --title-font_size: 30px;
  --subtitle-font_size: 20px;
- --paragraph-font_size: medium;
+ --paragraph-font_size: 14px;
 }
 .titulo{
   font-size: var(--title-font_size);
   font-family: var(--font-titulo-subtitulo);
+  color: var(--title-font-color);
+  text-shadow: 1px 2px var(--title-color-shadow);
 }
 .subtitulo{
   font-size: var(--subtitle-font_size);
   font-family: var(--font-titulo-subtitulo);
+  
 }
 .parrafo{
   font-size: var(--paragraph-font_size);
+  font-family: var(--font-paragraph);
+  color: white;
 }
 body {
   margin: 0;
