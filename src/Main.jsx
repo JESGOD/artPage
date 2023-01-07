@@ -9,6 +9,10 @@ import "./swiperheader.css";
 /* swiper js articulos nuevos  */
 import ArticulosNuevos from "./ArticulosNuevos";
 /* fin swiper js articulos nuevos  */
+
+/* preguntas frecuentes */
+import { Preguntas } from "./Preguntas";
+/* fin preguntas frecuentes */
 export function Main() {
   return (
     <main>
@@ -21,6 +25,9 @@ export function Main() {
             <h2 className="subtitulo">New unique design and exclusive collection</h2>
           </div>
           <ArticulosNuevos />
+        </section>
+        <section className="preguntas-frecuentes">
+          <Preguntas/>
         </section>
       </main>
     </main>

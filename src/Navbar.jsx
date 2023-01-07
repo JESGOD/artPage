@@ -14,7 +14,7 @@ hamburger.addEventListener("click", () => {
 
   //Hamburger Animation
   hamburger.classList.toggle("toggle");
-}); */
+});  */
 /* fin js navbar */
 export function Navbar() {
   return (
