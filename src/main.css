@@ -1,0 +1,13 @@
+/* header  {
+    width: 100%;
+    height: auto;
+    background: url("//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider01.jpg?v=1637648972");
+} */
+
+header {
+    margin-bottom: 30px;
+}
+.contenedorP{
+    padding: 0 15px;
+    text-align: center;
+}

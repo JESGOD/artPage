@@ -1,5 +1,31 @@
+:root{
+  /* for pc */
+ --title-font_size_pc: x-large;
+ --subtitle-font_size_pc: x-large;
+ --paragraph-font_size_pc: medium;
+ --font-titulo-subtitulo:'Gloria Hallelujah', cursive;
+
+
+ /* for mobile */
+ --title-font_size: x-large;
+ --subtitle-font_size: 20px;
+ --paragraph-font_size: medium;
+}
+.titulo{
+  font-size: var(--title-font_size);
+  font-family: var(--font-titulo-subtitulo);
+}
+.subtitulo{
+  font-size: var(--subtitle-font_size);
+  font-family: var(--font-titulo-subtitulo);
+}
+.parrafo{
+  font-size: var(--paragraph-font_size);
+}
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +37,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
