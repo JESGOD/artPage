@@ -20,8 +20,8 @@ export function Preguntas() {
   return (
     <>
     <h1 className="subtitulo">Preguntas Frecuentes</h1>
-      <button class="accordion">¿Se hacen envios dentro y fuera del pais?</button>
-      <div class="panel">
+      <button className="accordion">¿Se hacen envios dentro y fuera del pais?</button>
+      <div className="panel">
         <p className="parrafo-preguntas">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -30,8 +30,8 @@ export function Preguntas() {
         </p>
       </div>
 
-      <button class="accordion">¿Cual es el valor del envio?</button>
-      <div class="panel">
+      <button className="accordion">¿Cual es el valor del envio?</button>
+      <div className="panel">
         <p className="parrafo-preguntas">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -40,8 +40,8 @@ export function Preguntas() {
         </p>
       </div>
 
-      <button class="accordion">¿Existe opcion de devolver el producto?</button>
-      <div class="panel">
+      <button className="accordion">¿Existe opcion de devolver el producto?</button>
+      <div className="panel">
         <p className="parrafo-preguntas">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

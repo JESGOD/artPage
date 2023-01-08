@@ -14,7 +14,7 @@
   .active, .accordion:hover {
     background-color: #ccc;
   }
-  
+  /* + */
   .accordion:after {
     content: '\002B';
     color: #777;
@@ -22,7 +22,7 @@
     float: right;
     margin-left: 5px;
   }
-  
+  /* - */
   .active:after {
     content: "\2212";
   }
