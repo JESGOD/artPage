@@ -31,10 +31,8 @@ export function Main() {
           <ArticulosNuevos />
         </section>
         <sectiom className="contenedor-galeria">
-        <h1 className="subtitulo">Galeria de arte</h1>
-          <Galeria/>
-          <Galeria/>
-          
+        <h1 className="subtitulo">Art gallery</h1>
+          <Galeria/> 
         </sectiom>
         <section className="preguntas-frecuentes">
           <Preguntas/>

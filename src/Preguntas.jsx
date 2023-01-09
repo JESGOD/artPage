@@ -19,8 +19,8 @@ for (i = 0; i < acc.length; i++) {
 export function Preguntas() {
   return (
     <>
-    <h1 className="subtitulo">Preguntas Frecuentes</h1>
-      <button className="accordion">¿Se hacen envios dentro y fuera del pais?</button>
+    <h1 className="subtitulo">Frequently Asked Questions</h1>
+      <button className="accordion">Are shipments made inside and outside the country?</button>
       <div className="panel">
         <p className="parrafo-preguntas">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -30,7 +30,7 @@ export function Preguntas() {
         </p>
       </div>
 
-      <button className="accordion">¿Cual es el valor del envio?</button>
+      <button className="accordion">What is the value of the shipment?</button>
       <div className="panel">
         <p className="parrafo-preguntas">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -40,7 +40,7 @@ export function Preguntas() {
         </p>
       </div>
 
-      <button className="accordion">¿Existe opcion de devolver el producto?</button>
+      <button className="accordion">Is there an option to return the product?</button>
       <div className="panel">
         <p className="parrafo-preguntas">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
