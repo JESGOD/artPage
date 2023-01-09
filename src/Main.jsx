@@ -34,7 +34,7 @@ export function Main() {
         <h1 className="subtitulo">Galeria de arte</h1>
           <Galeria/>
           <Galeria/>
-          <Galeria/>
+          
         </sectiom>
         <section className="preguntas-frecuentes">
           <Preguntas/>

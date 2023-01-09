@@ -32,42 +32,46 @@ export default function galeria() {
         className="mySwiper"
       >
         <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider03-mobile.jpg?v=1637648865"
+            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-09_600X600.jpg?v=1637656508"
             alt=""
           /></SwiperSlide>
         <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider03-mobile.jpg?v=1637648865"
+            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-10_600X600.jpg?v=1637656512"
             alt=""
           /></SwiperSlide>
         
         <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider03-mobile.jpg?v=1637648865"
+            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-08_600X600.jpg?v=1637656391"
             alt=""
           /></SwiperSlide>
        <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider03-mobile.jpg?v=1637648865"
+            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-07_600X600.jpg?v=1637661698"
             alt=""
           /></SwiperSlide>
         <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider03-mobile.jpg?v=1637648865"
+            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-04_600X600.jpg?v=1637665747"
             alt=""
           /></SwiperSlide>
         
         <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider03-mobile.jpg?v=1637648865"
+            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-03_600X600.jpg?v=1637665756"
             alt=""
           /></SwiperSlide>
           <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider03-mobile.jpg?v=1637648865"
+            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-02_600X600.jpg?v=1637665723"
             alt=""
           /></SwiperSlide>
         <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider03-mobile.jpg?v=1637648865"
+            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-01_600X600.jpg?v=1637665664"
             alt=""
           /></SwiperSlide>
         
         <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider03-mobile.jpg?v=1637648865"
+            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-06_600X600.jpg?v=1637665719"
+            alt=""
+          /></SwiperSlide>
+          <SwiperSlide><img
+            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-05_600X600.jpg?v=1637665695"
             alt=""
           /></SwiperSlide>
       </Swiper>
