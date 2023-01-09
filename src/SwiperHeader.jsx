@@ -46,7 +46,7 @@ export default function SwiperHeader() {
             <p className="parrafo">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus omnis id minima officiis! Laborum, recusandae?
             </p>
-            <button className="btn_verMas">COMPRAR</button>
+            <button className="btn_verMas">BUY</button>
           </div>
           <img
             src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider02-mobile.jpg?v=1637648973"
@@ -60,7 +60,7 @@ export default function SwiperHeader() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
               illo aperiam deserunt
             </p>
-            <button className="btn_verMas">COMPRAR</button>
+            <button className="btn_verMas">BUY</button>
           </div>
           <img
             src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider03-mobile.jpg?v=1637648865"

@@ -7,7 +7,7 @@ export function CardNuevoArticulo({img_src,nombre_articulo}) {
       <div class="contentBx">
         <h2>{nombre_articulo}</h2>
         <div class="size">
-          <h3>Cant :</h3>
+          <h3>amount :</h3>
           <span>1</span>
           <span>2</span>
           <span>3</span>
