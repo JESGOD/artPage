@@ -13,6 +13,10 @@ import ArticulosNuevos from "./ArticulosNuevos";
 /* preguntas frecuentes */
 import { Preguntas } from "./Preguntas";
 /* fin preguntas frecuentes */
+
+/* galeria */
+import  Galeria  from "./Galeria";
+/* fin galeria */
 export function Main() {
   return (
     <main>
@@ -26,9 +30,16 @@ export function Main() {
           </div>
           <ArticulosNuevos />
         </section>
+        <sectiom className="contenedor-galeria">
+        <h1 className="subtitulo">Galeria de arte</h1>
+          <Galeria/>
+          <Galeria/>
+          <Galeria/>
+        </sectiom>
         <section className="preguntas-frecuentes">
           <Preguntas/>
         </section>
+        
       </main>
     </main>
   );
