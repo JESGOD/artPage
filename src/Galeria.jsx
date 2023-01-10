@@ -12,7 +12,7 @@ import "./galeria.css";
 // import required modules
 import {Autoplay, FreeMode, Pagination} from "swiper";
 
-export default function galeria() {
+export default function galeria({imgs}) {
   return (
     <>
     
@@ -32,46 +32,46 @@ export default function galeria() {
         className="mySwiper"
       >
         <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-09_600X600.jpg?v=1637656508"
+            src={imgs[0]}
             alt=""
           /></SwiperSlide>
         <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-10_600X600.jpg?v=1637656512"
+            src={imgs[1]}
             alt=""
           /></SwiperSlide>
         
         <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-08_600X600.jpg?v=1637656391"
+            src={imgs[2]}
             alt=""
           /></SwiperSlide>
        <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-07_600X600.jpg?v=1637661698"
+            src={imgs[3]}
             alt=""
           /></SwiperSlide>
         <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-04_600X600.jpg?v=1637665747"
+            src={imgs[4]}
             alt=""
           /></SwiperSlide>
         
         <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-03_600X600.jpg?v=1637665756"
+            src={imgs[5]}
             alt=""
           /></SwiperSlide>
           <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-02_600X600.jpg?v=1637665723"
+            src={imgs[6]}
             alt=""
           /></SwiperSlide>
         <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-01_600X600.jpg?v=1637665664"
+            src={imgs[7]}
             alt=""
           /></SwiperSlide>
         
         <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-06_600X600.jpg?v=1637665719"
+            src={imgs[8]}
             alt=""
           /></SwiperSlide>
           <SwiperSlide><img
-            src="//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-05_600X600.jpg?v=1637665695"
+            src={imgs[9]}
             alt=""
           /></SwiperSlide>
       </Swiper>
