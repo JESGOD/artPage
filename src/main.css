@@ -17,3 +17,41 @@ header {
     margin-bottom: 15px;
 }
 /* fin preguntas frecuentes */
+
+
+/* secciones galeria */
+.opciones-galeria{
+    padding: 0;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.opciones{
+    list-style: none;
+    
+}
+.opciones a{
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: gray;  
+    transition: .3s;
+}
+.opciones a::after{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    border-bottom: 3px solid #ffe431;
+    
+}
+.opciones a:hover{
+    color: black;
+}
+/* fin secciones galeria */
