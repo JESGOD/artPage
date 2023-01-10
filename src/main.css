@@ -42,7 +42,16 @@ header {
     color: gray;  
     transition: .3s;
 }
-.opciones a::after{
+.opciones .opc-abs::after{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    border-bottom: 3px solid #ffe431;
+    
+}
+.opciones .opc-pix::after{
     bottom: 0;
     left: 0;
     position: absolute;

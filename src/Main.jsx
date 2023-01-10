@@ -35,6 +35,7 @@ opcAbstract.addEventListener("click", function () {
   seccionAbstract.style.display = "flex";
   seccionPixel.classList.remove("show");
 });
+
 /* iamgeens para la galeria */
 let imgsAbstract = [
   "//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-09_600X600.jpg?v=1637656508",
