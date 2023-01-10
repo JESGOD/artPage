@@ -18,9 +18,14 @@ import { Preguntas } from "./Preguntas";
 import Galeria from "./Galeria";
 /* fin galeria */
 
+/* footer */
+
+import { Footer } from "./Footer";
+
+/* fin footer */
 /* js menu secciones galeria */
 
-const opciones = document.querySelectorAll(".opciones");
+/* const opciones = document.querySelectorAll(".opciones");
 const opcAbstract = document.querySelector(".opc-abs");
 const opcPix = document.querySelector(".opc-pix");
 const seccionAbstract = document.querySelector(".seccion-arteAbstracto");
@@ -35,7 +40,7 @@ opcAbstract.addEventListener("click", function () {
   seccionAbstract.style.display = "flex";
   seccionPixel.classList.remove("show");
 });
-
+ */
 /* iamgeens para la galeria */
 let imgsAbstract = [
   "//cdn.shopify.com/s/files/1/0611/4865/9963/products/art-product-09_600X600.jpg?v=1637656508",
@@ -106,6 +111,9 @@ export function Main() {
           <Preguntas />
         </section>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </main>
   );
 }
