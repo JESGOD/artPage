@@ -18,8 +18,25 @@ import { Preguntas } from "./Preguntas";
 import Galeria from "./Galeria";
 /* fin galeria */
 
-
 /* js menu secciones galeria */
+
+const opciones = document.querySelectorAll(".opciones");
+const opcAbstract = document.querySelector(".opc-abs");
+const opcPix = document.querySelector(".opc-pix");
+const seccionAbstract = document.querySelector(".seccion-arteAbstracto")
+const seccionPixel = document.querySelector(".seccion-pixelArt")
+
+
+opcPix.addEventListener("click",function () {
+  seccionPixel.classList.add("show");
+  seccionAbstract.classList.remove("show");
+})
+
+opcAbstract.addEventListener("click",function () {
+  seccionAbstract.classList.add("show");
+  seccionPixel.classList.remove("show");
+}) 
+ 
 
 
 /* fin js menu secciones galeria */
@@ -38,21 +55,20 @@ export function Main() {
           </div>
           <ArticulosNuevos />
         </section>
-        <div className="secciones-galeria">
+        <div className="secciones-galeria" id="menu-galeria">
           <ul className="opciones-galeria">
-            <li className="opciones"><a href="#" className="subtitulo">Abstract art</a> </li>
-            <li className="opciones"><a href="#" className="subtitulo">Pixel Art</a> </li>
+            <li className="opciones opc-abstract"><a href="#menu-galeria" className="subtitulo opc-abs">Abstract art</a> </li>
+            <li className="opciones opc-pixel"><a href="#menu-galeria" className="subtitulo opc-pix">Pixel Art</a> </li>
           </ul>
         </div>
         <sectiom className="contenedor-galeria">
           {/* <h1 className="subtitulo">Art gallery</h1> */}
-          <section className="seccion-arteAbstracto">
+          <section className="seccion-arteAbstracto ">
           <Galeria />
           </section>
           <section className="seccion-pixelArt">
             <h1>ejemplo</h1>
           </section>
-          
         </sectiom>
         <section className="preguntas-frecuentes">
           <Preguntas />

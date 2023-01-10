@@ -54,4 +54,18 @@ header {
 .opciones a:hover{
     color: black;
 }
+
+.seccion-arteAbstracto{
+    display: none;
+}
+.seccion-pixelArt{
+   
+    display: none;
+} 
+
+.show {
+   display: flex;
+ 
+    
+}
 /* fin secciones galeria */
