@@ -29,11 +29,11 @@ const seccionPixel = document.querySelector(".seccion-pixelArt")
 
 opcPix.addEventListener("click",function () {
   seccionPixel.classList.add("show");
-  seccionAbstract.classList.remove("show");
+  seccionAbstract.style.display= "none";
 })
 
 opcAbstract.addEventListener("click",function () {
-  seccionAbstract.classList.add("show");
+  seccionAbstract.style.display= "flex";
   seccionPixel.classList.remove("show");
 }) 
  
