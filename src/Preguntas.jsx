@@ -19,7 +19,7 @@ for (i = 0; i < acc.length; i++) {
 export function Preguntas() {
   return (
     <>
-    <h1 className="subtitulo">Frequently Asked Questions</h1>
+    <h1 className="subtitulo titulo-preguntas">Frequently Asked Questions</h1>
       <button className="accordion">Are shipments made inside and outside the country?</button>
       <div className="panel">
         <p className="parrafo-preguntas">
