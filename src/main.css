@@ -12,9 +12,17 @@ header {
     text-align: center;
 }
 
+/* articulos nuevos */
+.textoArticulosNuevos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+    
+    
+}
+
 /* preguntas frecuentes */
 .preguntas-frecuentes{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 /* fin preguntas frecuentes */
 
@@ -25,7 +33,7 @@ header {
 }
 .opciones-galeria{
     padding: 0;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -81,3 +89,23 @@ header {
     
 }
 /* fin secciones galeria */
+
+@media screen and (min-width: 700px) {
+    .opciones a{
+        
+        font-size: 25px;
+        
+    }
+    
+       .main2{
+        background-color: #f4f4f4;
+       }
+}
+@media screen and (min-width: 900px) {
+    .opciones a{
+        
+        font-size: 28px;
+        
+    }
+}
+

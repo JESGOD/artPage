@@ -90,3 +90,17 @@
   transform: translateY(0px);
   transition-delay: 0.75s;
 }
+@media screen and (min-width: 900px){
+  .card .contentBx .size span {
+    
+    font-size: 20px;
+    
+  }
+  .card .contentBx .size h3 {
+    
+    font-size: 20px;
+    
+  }
+
+  
+}

@@ -7,7 +7,7 @@
 .contenedorSwiper2 .swiper {
   width: 100%;
   padding-top: 10px;
-  padding-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .contenedorSwiper2 .swiper-slide {

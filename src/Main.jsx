@@ -71,7 +71,7 @@ let imgsPixel = [
 /* fin js menu secciones galeria */
 export function Main() {
   return (
-    <main>
+    <main className="main2">
       <header>
         <SwiperHeader />
       </header>
@@ -99,7 +99,7 @@ export function Main() {
           </ul>
         </div>
         <sectiom className="contenedor-galeria">
-          {/* <h1 className="subtitulo">Art gallery</h1> */}
+          
           <section className="seccion-arteAbstracto ">
             <Galeria imgs={imgsAbstract} />
           </section>

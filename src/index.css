@@ -5,9 +5,9 @@
   --title-font-color: white;
   --title-color-shadow: #ffe431;
   /* for pc */
- --title-font_size_pc: x-large;
- --subtitle-font_size_pc: x-large;
- --paragraph-font_size_pc: medium;
+ --title-font_size_pc: 30px;
+ --subtitle-font_size_pc: 30px;
+ --paragraph-font_size_pc: x-large;
  
 
 
@@ -49,7 +49,46 @@ code {
 }
 
 @media screen and (min-width: 500px) {
+  .titulo{
+    font-size: 40px;
+   
+  }
+  .subtitulo{
+    font-size: 30px;
+    
+    
+  }
   .parrafo{
-    font-size: 20px;
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .titulo{
+    font-size: 45px;
+   
+  }
+  .subtitulo{
+    font-size: 35px;
+    
+    
+  }
+  .parrafo{
+    font-size: 25px;
+  }
+}
+
+
+@media screen and (min-width: 1800px) {
+  .titulo{
+    font-size: 45px;
+   
+  }
+  .subtitulo{
+    font-size: 40px;
+    
+    
+  }
+  .parrafo{
+    font-size: 35px;
   }
 }

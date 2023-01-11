@@ -35,7 +35,7 @@ export default function SwiperHeader() {
             </p>
             <button className="btn_verMas">BUY</button>
           </div>
-          <img
+          <img className="header-img1"
             src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider01-mobile.jpg?v=1637744988"
             alt=""
           />{" "}
@@ -48,7 +48,7 @@ export default function SwiperHeader() {
             </p>
             <button className="btn_verMas">BUY</button>
           </div>
-          <img
+          <img className="header-img2"
             src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider02-mobile.jpg?v=1637648973"
             alt=""
           />
@@ -62,7 +62,7 @@ export default function SwiperHeader() {
             </p>
             <button className="btn_verMas">BUY</button>
           </div>
-          <img
+          <img className="header-img3"
             src="//cdn.shopify.com/s/files/1/0611/4865/9963/files/slider03-mobile.jpg?v=1637648865"
             alt=""
           />
