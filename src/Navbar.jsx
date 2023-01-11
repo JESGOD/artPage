@@ -1,7 +1,7 @@
 import "./navbar.css";
 import logo from "./asets/logo4.png";
 /* js navbar */
-const hamburger = document.querySelector(".hamburger");
+/* const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
 
@@ -14,11 +14,11 @@ hamburger.addEventListener("click", () => {
 
   //Hamburger Animation
   hamburger.classList.toggle("toggle");
-});  
+});  */ 
 /* fin js navbar */
 
 /* js ocultar/mostrar navbar al hacer scroll*/
-let ubucacionPrincipal = window.pageYOffset
+/* let ubucacionPrincipal = window.pageYOffset
 let nav = document.querySelector(".navbar1")
 console.log(nav);
 window.addEventListener("scroll",function () {
@@ -32,7 +32,7 @@ window.addEventListener("scroll",function () {
     
   }
   ubucacionPrincipal=ubucacionActual
-})
+}) */
 /* fin js ocultar/mostrar navbar al hacer scroll*/
 export function Navbar() {
   return (
