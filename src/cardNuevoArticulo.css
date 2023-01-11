@@ -29,8 +29,8 @@
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .card:hover .contentBx .size {

@@ -6,16 +6,16 @@ export function Footer() {
       <div class="footer-basic">
         <footer>
           <div class="social">
-            <a href="#">
+            <a href="#footer">
             <i class="fa-brands fa-github"></i>
             </a>
-            <a href="#">
+            <a href="#footer">
             <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="#">
+            <a href="#footer">
             <i class="fa-brands fa-facebook"></i>
             </a>
-            <a href="#">
+            <a href="#footer">
             <i class="fa-brands fa-twitter"></i>
             </a>
           </div>

@@ -111,7 +111,7 @@ export function Main() {
           <Preguntas />
         </section>
       </main>
-      <footer>
+      <footer id="footer">
         <Footer />
       </footer>
     </main>
