@@ -16,12 +16,30 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("toggle");
 });  */
 /* fin js navbar */
+
+/* js ocultar/mostrar navbar al hacer scroll*/
+let ubucacionPrincipal = window.pageYOffset
+let nav = document.querySelector(".navbar1")
+console.log(nav);
+window.addEventListener("scroll",function () {
+  let ubucacionActual = window.pageYOffset
+  
+  if (ubucacionPrincipal>=ubucacionActual) {
+    
+    nav.style.top = "0px"
+  }else{
+    nav.style.top = "-100px"
+    
+  }
+  ubucacionPrincipal=ubucacionActual
+})
+/* fin js ocultar/mostrar navbar al hacer scroll*/
 export function Navbar() {
   return (
     <>
       <span className="cont-lu"></span>
       <div className="container topBotomBordersOut">
-        <nav id="main-navbar ">
+        <nav id="main-navbar " className="navbar1">
           <div class="logo">
             <img src={logo} alt="" id="id-imagen-logo" />
           </div>
