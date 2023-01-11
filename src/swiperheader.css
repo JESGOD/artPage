@@ -66,7 +66,7 @@
   cursor: pointer;
   display: inline-block;
   font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
-  padding: 7px 20px;
+  padding: 7px 50px;
   text-align: center;
   text-decoration: none;
   transition: all 250ms;
@@ -90,6 +90,10 @@
   }
 }
 @media screen and (min-width: 700px) {
+  .swiper {
+    
+    margin-bottom: 160px;
+  }
   .texto-header{
     width: 50%;
     top: 10%;

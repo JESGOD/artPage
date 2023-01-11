@@ -42,3 +42,8 @@
 }
 
 
+@media screen and (min-width: 700px) {
+  .contenedor-galeria .swiper {
+    margin-bottom: 150px;
+  }
+}

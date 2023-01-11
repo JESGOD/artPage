@@ -85,6 +85,7 @@ export function Main() {
           <ArticulosNuevos />
         </section>
         <div className="secciones-galeria" id="menu-galeria">
+          
           <ul className="opciones-galeria">
             <li className="opciones opc-abstract">
               <a href="#menu-galeria" className="subtitulo opc-abs">
@@ -99,7 +100,6 @@ export function Main() {
           </ul>
         </div>
         <sectiom className="contenedor-galeria">
-          
           <section className="seccion-arteAbstracto ">
             <Galeria imgs={imgsAbstract} />
           </section>

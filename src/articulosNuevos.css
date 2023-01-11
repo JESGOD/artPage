@@ -24,3 +24,10 @@
 }
 
 
+@media screen and (min-width: 700px) {
+  .contenedorSwiper2 .swiper {
+    margin-bottom: 150px;
+  }
+  
+
+}

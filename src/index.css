@@ -1,6 +1,7 @@
 :root{
   /* global */
-  --font-titulo-subtitulo:'Gloria Hallelujah', cursive;
+  --font-titulo:'Gloria Hallelujah', cursive;
+  --font-subtitulo:'Manrope', sans-serif;
   --font-paragraph: 'Yeon Sung';
   --title-font-color: white;
   --title-color-shadow: #ffe431;
@@ -18,13 +19,13 @@
 }
 .titulo{
   font-size: var(--title-font_size);
-  font-family: var(--font-titulo-subtitulo);
+  font-family: var(--font-titulo);
   color: var(--title-font-color);
   text-shadow: 1px 2px var(--title-color-shadow);
 }
 .subtitulo{
   font-size: var(--subtitle-font_size);
-  font-family: var(--font-titulo-subtitulo);
+  font-family: var(--font-subtitulo);
   
 }
 .parrafo{
